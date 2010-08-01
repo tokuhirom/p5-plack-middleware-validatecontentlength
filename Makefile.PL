@@ -2,7 +2,7 @@ use inc::Module::Install;
 name 'Plack-Middleware-ValidateContentLength';
 all_from 'lib/Plack/Middleware/ValidateContentLength.pm';
 
-# requires '';
+requires 'Plack' => 0.9943;
 
 
 readme_markdown_from 'lib/Plack/Middleware/ValidateContentLength.pm';

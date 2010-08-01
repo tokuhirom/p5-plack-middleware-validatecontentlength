@@ -4,7 +4,7 @@ Plack::Middleware::ValidateContentLength -
 
 # SYNOPSIS
 
-  use Plack::Middleware::ValidateContentLength;
+    plackup -e 'enable "ValidateContentLength"' -e '[200, ["Content-Length" => 3], ["NOT OK"]]'
 
 # DESCRIPTION
 
