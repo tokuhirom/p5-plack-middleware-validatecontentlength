@@ -1,8 +1,9 @@
 package Plack::Middleware::ValidateContentLength;
 use strict;
 use warnings;
+use parent qw/Plack::Middleware/;
 use 5.00800;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 use Plack::Util qw//;
 
 sub call {
